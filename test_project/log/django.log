@@ -24,3 +24,92 @@ INFO 2024-03-25 16:37:34,399 basehttp 4766 6169931776 "GET / HTTP/1.1" 200 13
 INFO 2024-03-25 16:39:39,864 basehttp 4766 6169931776 "GET / HTTP/1.1" 200 13
 WARNING 2024-03-25 16:40:25,816 log 4766 6169931776 Not Found: /about/k
 WARNING 2024-03-25 16:40:25,817 basehttp 4766 6169931776 "GET /about/k HTTP/1.1" 404 2432
+INFO 2024-03-28 05:34:00,482 autoreload 7315 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:34:01,838 basehttp 7315 6123745280 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:37:36,208 autoreload 7315 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:37:36,474 autoreload 7351 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:37:37,954 basehttp 7351 6130954240 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:37:44,720 basehttp 7351 6130954240 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:37:45,918 basehttp 7351 6130954240 "GET /about/ HTTP/1.1" 200 27
+INFO 2024-03-28 05:38:23,246 autoreload 7351 8444754624 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-03-28 05:40:03,289 autoreload 7383 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:40:04,644 basehttp 7383 6127022080 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:40:14,363 basehttp 7383 6127022080 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:40:15,904 basehttp 7383 6127022080 "GET /about/ HTTP/1.1" 200 27
+INFO 2024-03-28 05:41:10,394 autoreload 7383 8444754624 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-03-28 05:41:10,604 autoreload 7402 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:41:17,769 basehttp 7402 6159118336 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:43:31,992 autoreload 7402 8444754624 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-03-28 05:43:32,297 autoreload 7435 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:43:33,538 basehttp 7435 6166622208 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:43:41,691 basehttp 7435 6166622208 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:43:49,182 basehttp 7435 6166622208 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:43:52,004 basehttp 7435 6166622208 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:43:52,610 basehttp 7435 6166622208 "GET /about/ HTTP/1.1" 200 27
+INFO 2024-03-28 05:44:24,290 autoreload 7435 8444754624 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-03-28 05:44:24,562 autoreload 7447 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:47:43,007 autoreload 7447 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:47:43,305 autoreload 7486 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:47:44,626 basehttp 7486 6163394560 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:48:23,032 autoreload 7486 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:48:23,219 autoreload 7500 8444754624 Watching for file changes with StatReloader
+ERROR 2024-03-28 05:48:24,244 log 7500 6205091840 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp/views.py", line 9, in index
+    logger.log('we')
+TypeError: log() missing 1 required positional argument: 'msg'
+ERROR 2024-03-28 05:48:24,245 basehttp 7500 6205091840 "GET / HTTP/1.1" 500 64731
+INFO 2024-03-28 05:48:48,615 autoreload 7500 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:48:48,803 autoreload 7510 8444754624 Watching for file changes with StatReloader
+ERROR 2024-03-28 05:48:49,827 log 7510 6200799232 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp/views.py", line 9, in index
+    logger.log(msg='e')
+TypeError: log() missing 1 required positional argument: 'level'
+ERROR 2024-03-28 05:48:49,828 basehttp 7510 6200799232 "GET / HTTP/1.1" 500 64745
+INFO 2024-03-28 05:49:37,565 autoreload 7510 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:49:37,752 autoreload 7526 8444754624 Watching for file changes with StatReloader
+ERROR 2024-03-28 05:49:39,021 log 7526 6203781120 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp/views.py", line 9, in index
+    logger.log(msg='e', level="info")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1508, in log
+    raise TypeError("level must be an integer")
+TypeError: level must be an integer
+ERROR 2024-03-28 05:49:39,022 basehttp 7526 6203781120 "GET / HTTP/1.1" 500 68958
+INFO 2024-03-28 05:49:51,077 autoreload 7526 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:49:51,266 autoreload 7533 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:49:52,418 basehttp 7533 6135427072 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:50:47,267 autoreload 7533 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:50:47,458 autoreload 7542 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:54:14,946 autoreload 7542 8444754624 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-03-28 05:54:15,288 autoreload 7650 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:54:16,312 basehttp 7650 6201683968 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 05:55:09,088 autoreload 7650 8444754624 /Users/denisburguto/test2django/test_project/testapp/views.py changed, reloading.
+INFO 2024-03-28 05:55:09,282 autoreload 7667 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 05:55:10,753 views 7667 6167064576 Index page accessed
+INFO 2024-03-28 05:55:10,754 basehttp 7667 6167064576 "GET / HTTP/1.1" 200 13
+INFO 2024-03-28 06:03:40,541 autoreload 7837 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-28 06:03:42,369 views 7837 6203617280 Index page accessed
+INFO 2024-03-28 06:03:42,370 basehttp 7837 6203617280 "GET / HTTP/1.1" 200 13
+INFO 2024-03-30 04:08:44,982 autoreload 11036 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-30 04:09:08,020 autoreload 11083 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-30 04:09:13,850 views 11083 6133035008 Index page accessed
+INFO 2024-03-30 04:09:13,851 basehttp 11083 6133035008 "GET / HTTP/1.1" 200 13
+INFO 2024-03-30 04:14:59,071 autoreload 11154 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-30 06:49:26,183 autoreload 14734 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-30 06:51:40,712 autoreload 14927 8444754624 Watching for file changes with StatReloader
+INFO 2024-03-30 07:28:29,988 autoreload 14927 8444754624 /Users/denisburguto/test2django/test_project/testapp2/models.py changed, reloading.
+INFO 2024-03-30 07:28:30,277 autoreload 15412 8444754624 Watching for file changes with StatReloader

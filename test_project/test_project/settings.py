@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'testapp',
+    'testapp2',
 ]
 
 MIDDLEWARE = [
@@ -133,22 +136,25 @@ LOGGING = {
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
-            'formatter': 'verbose',
-        }, 'file': {
+            'formatter': 'verbose',  # добавлен параметр formatter
+        },
+        'file': {
             'class': 'logging.FileHandler',
-            'filename': './log/django.log',  # 'filename': './Log/django.Log'
-            'formatter': 'verbose',
+            'filename': './log/django.log',
+            'formatter': 'verbose',  # добавлен параметр formatter
         },
     },
     'loggers': {
         'django': {
             'handlers': ['console', 'file'],
-            'Level': 'INFO',
-        }, 'myapp': {
+            'level': 'INFO',
+            'propagate': True,
+        },
+
+        'testapp': {
             'handlers': ['console', 'file'],
-            'Level': 'DEBUG',
+            'level': 'DEBUG',
             'propagate': True,
         },
     },
-
 }

@@ -113,3 +113,318 @@ INFO 2024-03-30 06:49:26,183 autoreload 14734 8444754624 Watching for file chang
 INFO 2024-03-30 06:51:40,712 autoreload 14927 8444754624 Watching for file changes with StatReloader
 INFO 2024-03-30 07:28:29,988 autoreload 14927 8444754624 /Users/denisburguto/test2django/test_project/testapp2/models.py changed, reloading.
 INFO 2024-03-30 07:28:30,277 autoreload 15412 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 13:57:26,555 autoreload 20380 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 13:57:52,931 autoreload 20380 8444754624 /Users/denisburguto/test2django/test_project/test_project/urls.py changed, reloading.
+INFO 2024-04-02 13:57:53,169 autoreload 20388 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 13:58:02,303 autoreload 20388 8444754624 /Users/denisburguto/test2django/test_project/test_project/urls.py changed, reloading.
+INFO 2024-04-02 13:58:02,520 autoreload 20394 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 13:59:04,426 autoreload 20394 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 13:59:04,680 autoreload 20409 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 13:59:10,850 autoreload 20409 8444754624 /Users/denisburguto/test2django/test_project/testapp3/urls.py changed, reloading.
+INFO 2024-04-02 13:59:11,040 autoreload 20418 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:00:03,212 autoreload 20451 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:00:19,377 autoreload 20490 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:00:20,946 views 20490 6155235328 Index page accessed
+INFO 2024-04-02 14:00:20,946 basehttp 20490 6155235328 "GET / HTTP/1.1" 200 13
+WARNING 2024-04-02 14:00:20,989 log 20490 6172061696 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-04-02 14:00:20,989 basehttp 20490 6172061696 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2613
+WARNING 2024-04-02 14:00:20,992 log 20490 6172061696 Not Found: /apple-touch-icon.png
+WARNING 2024-04-02 14:00:20,992 basehttp 20490 6172061696 "GET /apple-touch-icon.png HTTP/1.1" 404 2577
+WARNING 2024-04-02 14:00:21,022 log 20490 6155235328 Not Found: /favicon.ico
+WARNING 2024-04-02 14:00:21,022 basehttp 20490 6155235328 "GET /favicon.ico HTTP/1.1" 404 2550
+INFO 2024-04-02 14:00:42,319 basehttp 20490 6155235328 "GET /three/hello HTTP/1.1" 301 0
+INFO 2024-04-02 14:00:42,335 basehttp 20490 6155235328 "GET /three/hello/ HTTP/1.1" 200 26
+INFO 2024-04-02 14:01:07,187 basehttp 20490 6155235328 "GET /three/hello_class HTTP/1.1" 301 0
+ERROR 2024-04-02 14:01:07,228 log 20490 6155235328 Internal Server Error: /three/hello_class/
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2024-04-02 14:01:07,229 basehttp 20490 6155235328 "GET /three/hello_class/ HTTP/1.1" 500 62088
+INFO 2024-04-02 14:01:19,665 autoreload 20490 8444754624 /Users/denisburguto/test2django/test_project/testapp3/urls.py changed, reloading.
+INFO 2024-04-02 14:01:19,934 autoreload 20502 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:01:23,068 basehttp 20502 6194229248 "GET /three/hello_class/ HTTP/1.1" 200 23
+INFO 2024-04-02 14:05:23,164 views 20502 6194229248 Index page accessed
+INFO 2024-04-02 14:05:23,165 basehttp 20502 6194229248 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 14:05:32,539 views 20502 6194229248 Index page accessed
+INFO 2024-04-02 14:05:32,540 basehttp 20502 6194229248 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 14:05:34,022 basehttp 20502 6194229248 "GET /three/hello_class/ HTTP/1.1" 200 23
+INFO 2024-04-02 14:05:41,516 basehttp 20502 6194229248 "GET /three/hello_class/ HTTP/1.1" 200 23
+WARNING 2024-04-02 14:05:42,798 log 20502 6194229248 Not Found: /three
+WARNING 2024-04-02 14:05:42,798 basehttp 20502 6194229248 "GET /three HTTP/1.1" 404 2532
+INFO 2024-04-02 14:05:51,164 basehttp 20502 6194229248 "GET /three/hello_class/ HTTP/1.1" 200 23
+INFO 2024-04-02 14:05:55,546 basehttp 20502 6194229248 "GET /three/hello_class/ HTTP/1.1" 200 23
+WARNING 2024-04-02 14:05:57,166 log 20502 6194229248 Not Found: /three/
+WARNING 2024-04-02 14:05:57,166 basehttp 20502 6194229248 "GET /three/ HTTP/1.1" 404 2786
+INFO 2024-04-02 14:15:36,956 autoreload 20502 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 14:15:37,265 autoreload 20596 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:19:49,955 autoreload 20596 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 14:19:50,228 autoreload 20634 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:20:48,077 autoreload 20634 8444754624 /Users/denisburguto/test2django/test_project/testapp3/urls.py changed, reloading.
+INFO 2024-04-02 14:20:48,264 autoreload 20660 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:20:50,044 views 20660 6132051968 Index page accessed
+INFO 2024-04-02 14:20:50,044 basehttp 20660 6132051968 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 14:21:05,566 views 20660 6132051968 Index page accessed
+INFO 2024-04-02 14:21:05,566 basehttp 20660 6132051968 "GET / HTTP/1.1" 200 13
+WARNING 2024-04-02 14:21:29,297 log 20660 6132051968 Not Found: /three/posts
+WARNING 2024-04-02 14:21:29,298 basehttp 20660 6132051968 "GET /three/posts HTTP/1.1" 404 3440
+INFO 2024-04-02 14:21:37,521 basehttp 20660 6132051968 "GET /three/posts/2022 HTTP/1.1" 301 0
+INFO 2024-04-02 14:21:37,539 basehttp 20660 6132051968 "GET /three/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-02 14:21:42,230 basehttp 20660 6132051968 "GET /three/posts/2022/4 HTTP/1.1" 301 0
+INFO 2024-04-02 14:21:42,249 basehttp 20660 6132051968 "GET /three/posts/2022/4/ HTTP/1.1" 200 21
+INFO 2024-04-02 14:21:50,769 basehttp 20660 6132051968 "GET /three/posts/2022/4/java HTTP/1.1" 301 0
+INFO 2024-04-02 14:21:50,786 basehttp 20660 6132051968 "GET /three/posts/2022/4/java/ HTTP/1.1" 200 364
+INFO 2024-04-02 14:22:48,576 autoreload 20660 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 14:22:48,841 autoreload 20674 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:22:53,639 basehttp 20674 6167162880 "GET /three/posts/2022/4/java/ HTTP/1.1" 200 856
+INFO 2024-04-02 14:23:11,393 autoreload 20674 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 14:23:11,575 autoreload 20682 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:23:16,095 basehttp 20682 6200651776 "GET /three/posts/2022/4/java/ HTTP/1.1" 200 364
+INFO 2024-04-02 14:23:55,223 basehttp 20682 6217478144 "GET /three/posts/2022/4/java/ HTTP/1.1" 200 364
+WARNING 2024-04-02 14:23:55,282 log 20682 6217478144 Not Found: /favicon.ico
+WARNING 2024-04-02 14:23:55,282 basehttp 20682 6217478144 "GET /favicon.ico HTTP/1.1" 404 2550
+INFO 2024-04-02 14:33:45,062 autoreload 20682 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 14:33:45,344 autoreload 20868 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:33:51,202 basehttp 20868 6157430784 "GET /three/posts/2022/4/java/ HTTP/1.1" 200 364
+INFO 2024-04-02 14:33:52,602 basehttp 20868 6157430784 "GET /three/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-02 14:33:54,760 basehttp 20868 6157430784 "GET /three/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-02 14:33:55,211 basehttp 20868 6157430784 "GET /three/hello_class/ HTTP/1.1" 200 23
+ERROR 2024-04-02 14:33:58,668 log 20868 6157430784 Internal Server Error: /three/my/den
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp3/my_temp.html
+ERROR 2024-04-02 14:33:58,670 basehttp 20868 6157430784 "GET /three/my/den HTTP/1.1" 500 79128
+ERROR 2024-04-02 14:37:32,395 log 20868 6157430784 Internal Server Error: /three/my/den
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp3/my_temp.html
+ERROR 2024-04-02 14:37:32,396 basehttp 20868 6157430784 "GET /three/my/den HTTP/1.1" 500 79128
+INFO 2024-04-02 14:37:40,545 autoreload 20915 8444754624 Watching for file changes with StatReloader
+ERROR 2024-04-02 14:37:43,888 log 20915 6164508672 Internal Server Error: /three/my/den
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp3/my_temp.html
+ERROR 2024-04-02 14:37:43,892 basehttp 20915 6164508672 "GET /three/my/den HTTP/1.1" 500 79128
+ERROR 2024-04-02 14:37:48,171 log 20915 6164508672 Internal Server Error: /three/my/den
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp3/my_temp.html
+ERROR 2024-04-02 14:37:48,171 basehttp 20915 6164508672 "GET /three/my/den HTTP/1.1" 500 79128
+WARNING 2024-04-02 14:37:49,310 log 20915 6164508672 Not Found: /three/my/
+WARNING 2024-04-02 14:37:49,311 basehttp 20915 6164508672 "GET /three/my/ HTTP/1.1" 404 3617
+ERROR 2024-04-02 14:37:57,167 log 20915 6164508672 Internal Server Error: /three/my/we
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp3/my_temp.html
+ERROR 2024-04-02 14:37:57,167 basehttp 20915 6164508672 "GET /three/my/we HTTP/1.1" 500 79111
+INFO 2024-04-02 14:38:15,380 autoreload 20915 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 14:38:15,567 autoreload 20922 8444754624 Watching for file changes with StatReloader
+ERROR 2024-04-02 14:38:19,087 log 20922 6135607296 Internal Server Error: /three/my/we
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "/testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /testapp3/my_temp.html
+ERROR 2024-04-02 14:38:19,090 basehttp 20922 6135607296 "GET /three/my/we HTTP/1.1" 500 77954
+INFO 2024-04-02 14:40:20,666 autoreload 20962 8444754624 Watching for file changes with StatReloader
+ERROR 2024-04-02 14:40:24,615 log 20962 6132183040 Internal Server Error: /three/my/we
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "/testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /testapp3/my_temp.html
+ERROR 2024-04-02 14:40:24,619 basehttp 20962 6132183040 "GET /three/my/we HTTP/1.1" 500 77954
+ERROR 2024-04-02 14:40:33,331 log 20962 6132183040 Internal Server Error: /three/my/we
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 43, in my_view
+    return render(request, "/testapp3/my_temp.html", context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /testapp3/my_temp.html
+ERROR 2024-04-02 14:40:33,332 basehttp 20962 6132183040 "GET /three/my/we HTTP/1.1" 500 77954
+INFO 2024-04-02 14:40:55,396 autoreload 20962 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 14:40:55,563 autoreload 20971 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 14:40:58,426 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 14:41:03,152 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 14:41:07,306 basehttp 20971 6171488256 "GET /three/my/Marina! HTTP/1.1" 200 176
+INFO 2024-04-02 14:41:14,383 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 14:41:19,769 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 14:41:22,568 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 14:41:27,175 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 14:41:30,129 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 14:41:33,464 basehttp 20971 6171488256 "GET /three/my/%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0 HTTP/1.1" 200 181
+INFO 2024-04-02 15:20:33,994 basehttp 20971 6171488256 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 15:20:45,913 basehttp 20971 6171488256 "GET /three/my/%D0%AD%D0%BB%D1%8C%D0%B2%D0%B8%D1%80%D0%B0 HTTP/1.1" 200 183
+INFO 2024-04-02 15:46:33,024 autoreload 20971 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 15:46:33,322 autoreload 21541 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 15:46:35,074 views 21541 6129954816 Index page accessed
+INFO 2024-04-02 15:46:35,074 basehttp 21541 6129954816 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 15:46:38,355 views 21541 6129954816 Index page accessed
+INFO 2024-04-02 15:46:38,356 basehttp 21541 6129954816 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 15:46:41,055 views 21541 6129954816 Index page accessed
+INFO 2024-04-02 15:46:41,055 basehttp 21541 6129954816 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 15:46:41,950 basehttp 21541 6129954816 "GET /three/my/we HTTP/1.1" 200 171
+INFO 2024-04-02 15:46:46,328 basehttp 21541 6129954816 "GET /three HTTP/1.1" 301 0
+INFO 2024-04-02 15:46:46,344 basehttp 21541 6129954816 "GET /three/ HTTP/1.1" 200 291
+INFO 2024-04-02 15:55:23,853 autoreload 21541 8444754624 /Users/denisburguto/test2django/test_project/testapp3/urls.py changed, reloading.
+INFO 2024-04-02 15:55:24,100 autoreload 21611 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 15:55:28,718 basehttp 21611 6202683392 "GET /three/for HTTP/1.1" 301 0
+ERROR 2024-04-02 15:55:28,746 log 21611 6202683392 Internal Server Error: /three/for/
+Traceback (most recent call last):
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisburguto/test2django/test_project/testapp3/views.py", line 64, in view_for
+    return render(request, 'myapp3/templ_for.html', context)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisburguto/Library/Python/3.9/lib/python/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_for.html
+ERROR 2024-04-02 15:55:28,749 basehttp 21611 6202683392 "GET /three/for/ HTTP/1.1" 500 81710
+INFO 2024-04-02 15:56:16,067 autoreload 21611 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 15:56:16,233 autoreload 21635 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 15:56:20,257 basehttp 21635 6196637696 "GET /three/for/ HTTP/1.1" 200 955
+INFO 2024-04-02 16:10:48,208 autoreload 21635 8444754624 /Users/denisburguto/test2django/test_project/testapp3/urls.py changed, reloading.
+INFO 2024-04-02 16:10:48,465 autoreload 21770 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:10:50,099 views 21770 6164688896 Index page accessed
+INFO 2024-04-02 16:10:50,099 basehttp 21770 6164688896 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 16:10:53,183 views 21770 6164688896 Index page accessed
+INFO 2024-04-02 16:10:53,184 basehttp 21770 6164688896 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 16:10:56,859 basehttp 21770 6164688896 "GET /three/ HTTP/1.1" 200 291
+INFO 2024-04-02 16:11:02,455 basehttp 21770 6164688896 "GET /three/index HTTP/1.1" 301 0
+INFO 2024-04-02 16:11:02,475 basehttp 21770 6164688896 "GET /three/index/ HTTP/1.1" 200 180
+INFO 2024-04-02 16:11:35,861 basehttp 21770 6164688896 "GET /three/about/ HTTP/1.1" 200 210
+INFO 2024-04-02 16:12:11,210 basehttp 21770 6164688896 "GET /three/about/ HTTP/1.1" 200 210
+INFO 2024-04-02 16:12:11,701 basehttp 21770 6164688896 "GET /three/ HTTP/1.1" 200 291
+INFO 2024-04-02 16:12:12,478 basehttp 21770 6164688896 "GET /three/for/ HTTP/1.1" 200 955
+INFO 2024-04-02 16:16:11,164 autoreload 21770 8444754624 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-04-02 16:16:11,429 autoreload 21827 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:16:12,715 views 21827 6164361216 Index page accessed
+INFO 2024-04-02 16:16:12,719 basehttp 21827 6164361216 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 16:16:16,549 views 21827 6164361216 Index page accessed
+INFO 2024-04-02 16:16:16,550 basehttp 21827 6164361216 "GET / HTTP/1.1" 200 13
+INFO 2024-04-02 16:16:25,952 basehttp 21827 6164361216 "GET /three/ HTTP/1.1" 200 291
+INFO 2024-04-02 16:16:26,820 basehttp 21827 6164361216 "GET /three/about/ HTTP/1.1" 200 210
+INFO 2024-04-02 16:16:53,619 basehttp 21827 6164361216 "GET /three/about/ HTTP/1.1" 200 210
+INFO 2024-04-02 16:16:54,345 basehttp 21827 6164361216 "GET /three/ HTTP/1.1" 200 291
+INFO 2024-04-02 16:16:54,975 basehttp 21827 6164361216 "GET /three/index/ HTTP/1.1" 200 227
+INFO 2024-04-02 16:19:18,826 autoreload 21827 8444754624 /Users/denisburguto/test2django/test_project/test_project/urls.py changed, reloading.
+INFO 2024-04-02 16:19:19,096 autoreload 21865 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:19:20,613 basehttp 21865 6132232192 "GET / HTTP/1.1" 200 227
+INFO 2024-04-02 16:20:07,050 autoreload 21865 8444754624 /Users/denisburguto/test2django/test_project/test_project/urls.py changed, reloading.
+INFO 2024-04-02 16:20:07,236 autoreload 21872 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:20:19,450 autoreload 21872 8444754624 /Users/denisburguto/test2django/test_project/test_project/urls.py changed, reloading.
+INFO 2024-04-02 16:20:19,635 autoreload 21883 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:30:07,224 autoreload 21883 8444754624 /Users/denisburguto/test2django/test_project/testapp3/models.py changed, reloading.
+INFO 2024-04-02 16:30:07,522 autoreload 21976 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:43:16,038 autoreload 22952 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:58:29,057 autoreload 24598 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:58:56,624 autoreload 24663 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 16:59:00,025 basehttp 24663 6157856768 "GET / HTTP/1.1" 200 227
+INFO 2024-04-02 17:04:57,457 autoreload 24663 8444754624 /Users/denisburguto/test2django/test_project/testapp3/views.py changed, reloading.
+INFO 2024-04-02 17:04:57,723 autoreload 24720 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 17:12:02,034 autoreload 24720 8444754624 /Users/denisburguto/test2django/test_project/test_project/urls.py changed, reloading.
+INFO 2024-04-02 17:12:02,294 autoreload 24794 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 17:12:24,699 basehttp 24794 6163017728 "GET / HTTP/1.1" 200 227
+INFO 2024-04-02 17:12:28,771 basehttp 24794 6163017728 "GET / HTTP/1.1" 200 227
+INFO 2024-04-02 17:12:30,294 basehttp 24794 6163017728 "GET /three/ HTTP/1.1" 200 291
+INFO 2024-04-02 17:12:35,264 basehttp 24794 6163017728 "GET /three/ HTTP/1.1" 200 291
+INFO 2024-04-02 17:12:37,007 basehttp 24794 6163017728 "GET /three/about/ HTTP/1.1" 200 210
+INFO 2024-04-02 17:12:41,986 basehttp 24794 6163017728 "GET /three/author/2 HTTP/1.1" 301 0
+INFO 2024-04-02 17:12:42,014 basehttp 24794 6163017728 "GET /three/author/2/ HTTP/1.1" 200 1082
+INFO 2024-04-02 17:13:40,355 basehttp 24794 6163017728 "GET /three/author/2/ HTTP/1.1" 200 977
+INFO 2024-04-02 17:13:45,687 basehttp 24794 6163017728 "GET /three/post/14/ HTTP/1.1" 200 640
+INFO 2024-04-02 17:13:55,919 basehttp 24794 6163017728 "GET /three/post/11/ HTTP/1.1" 200 642
+INFO 2024-04-02 17:17:12,096 basehttp 24794 6163017728 "GET /three/post/11/ HTTP/1.1" 200 642
+WARNING 2024-04-02 17:17:21,083 log 24794 6163017728 Not Found: /three/post/50/
+WARNING 2024-04-02 17:17:21,084 basehttp 24794 6163017728 "GET /three/post/50/ HTTP/1.1" 404 4646
+INFO 2024-04-02 17:17:33,250 basehttp 24794 6163017728 "GET /three/post/4/ HTTP/1.1" 200 628
+INFO 2024-04-02 17:17:42,837 basehttp 24794 6163017728 "GET /three/post/20/ HTTP/1.1" 200 646
+INFO 2024-04-02 17:18:18,815 basehttp 24794 6163017728 "GET /three/post/22/ HTTP/1.1" 200 672

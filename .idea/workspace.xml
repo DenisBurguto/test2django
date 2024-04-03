@@ -4,35 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecd96b-6a0f-4ad8-9d15-7653ac396418" name="Changes" comment="dd">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test2django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/create_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/delete_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/get_all_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/get_post_by_author_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/get_user_age_greater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/make_fake_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/my_command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/management/commands/update_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project/testapp2/views.py" afterDir="false" />
+    <list default="true" id="88ecd96b-6a0f-4ad8-9d15-7653ac396418" name="Changes" comment="dd2">
+      <change afterPath="$PROJECT_DIR$/test_project/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/management/commands/fill_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/author_posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/my_temp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/post_full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/templ_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/templates/testapp3/templ_if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp3/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test2django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test2django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_project/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/log/django.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_project/test_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/test_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_project/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/testapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_project/test_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/test_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_project/testapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/testapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +56,28 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2eBZcZ8RFKFu78hSSY2fDChB0aV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ToolWindowPython Packages.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/denisburguto/test2django&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/denisburguto/test2django/test_project/templates&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -84,6 +90,16 @@
         <option name="myAddContentRoots" value="false" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_project/templates" />
+      <recent name="$PROJECT_DIR$/test_project/testapp3/templates/testapp3" />
+      <recent name="$PROJECT_DIR$/test_project/testapp3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_project/testapp3/templates" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -102,6 +118,7 @@
       <updated>1711380011427</updated>
       <workItem from="1711777564252" duration="624000" />
       <workItem from="1711779481394" duration="1926000" />
+      <workItem from="1712076150934" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <option name="closed" value="true" />
@@ -111,15 +128,42 @@
       <option name="project" value="LOCAL" />
       <updated>1711602181090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dd2">
+      <option name="closed" value="true" />
+      <created>1712034557519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712034557519</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dd2">
+      <option name="closed" value="true" />
+      <created>1712034568950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712034568950</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dd2">
+      <option name="closed" value="true" />
+      <created>1712034590326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712034590326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dd" />
+    <MESSAGE value="dd2f" />
+    <MESSAGE value="dd2" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -128,11 +172,6 @@
           <url>file://$PROJECT_DIR$/test_project/testapp2/management/commands/get_all_users.py</url>
           <line>1</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_project/testapp2/models.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -24,7 +24,7 @@ urlpatterns = [
     path('pref', include('testapp.urls')),
     path('three/', include('testapp3.urls')),
     path('', index),
-
+    path('l4/', include('testapp4.urls')),
 
 
 ]

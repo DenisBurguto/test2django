@@ -428,3 +428,276 @@ WARNING 2024-04-02 17:17:21,084 basehttp 24794 6163017728 "GET /three/post/50/ H
 INFO 2024-04-02 17:17:33,250 basehttp 24794 6163017728 "GET /three/post/4/ HTTP/1.1" 200 628
 INFO 2024-04-02 17:17:42,837 basehttp 24794 6163017728 "GET /three/post/20/ HTTP/1.1" 200 646
 INFO 2024-04-02 17:18:18,815 basehttp 24794 6163017728 "GET /three/post/22/ HTTP/1.1" 200 672
+INFO 2024-04-07 09:04:17,449 autoreload 23300 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:04:59,131 autoreload 23384 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:05:03,015 basehttp 23384 6122844160 "GET / HTTP/1.1" 200 217
+WARNING 2024-04-07 09:05:03,898 log 23384 6139670528 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-04-07 09:05:03,898 basehttp 23384 6139670528 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2592
+WARNING 2024-04-07 09:05:03,910 log 23384 6139670528 Not Found: /apple-touch-icon.png
+WARNING 2024-04-07 09:05:03,910 basehttp 23384 6139670528 "GET /apple-touch-icon.png HTTP/1.1" 404 2556
+WARNING 2024-04-07 09:05:08,472 log 23384 6122844160 Not Found: /l4
+WARNING 2024-04-07 09:05:08,473 basehttp 23384 6122844160 "GET /l4 HTTP/1.1" 404 2502
+WARNING 2024-04-07 09:05:17,324 log 23384 6122844160 Not Found: /l4/
+WARNING 2024-04-07 09:05:17,324 basehttp 23384 6122844160 "GET /l4/ HTTP/1.1" 404 2579
+ERROR 2024-04-07 09:06:06,414 log 23384 6122844160 Internal Server Error: /l4/user/add/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view testapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-07 09:06:06,425 basehttp 23384 6122844160 "GET /l4/user/add/ HTTP/1.1" 500 65448
+INFO 2024-04-07 09:13:06,490 autoreload 23384 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 09:13:06,834 autoreload 23666 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:13:08,145 basehttp 23666 6203699200 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 09:13:13,867 basehttp 23666 6203699200 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 09:13:56,368 basehttp 23666 6203699200 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 09:13:59,759 basehttp 23666 6203699200 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 09:14:13,630 basehttp 23666 6203699200 "GET / HTTP/1.1" 200 217
+ERROR 2024-04-07 09:14:14,951 log 23666 6203699200 Internal Server Error: /l4/user/add/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/test2django/test_project/testapp4/views.py", line 19, in user_form
+    return render(request, 'myapp4/user_form.html', {'form': form})
+                                                             ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-04-07 09:14:14,952 basehttp 23666 6203699200 "GET /l4/user/add/ HTTP/1.1" 500 64243
+ERROR 2024-04-07 09:14:15,881 log 23666 6203699200 Internal Server Error: /l4/user/add/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/test2django/test_project/testapp4/views.py", line 19, in user_form
+    return render(request, 'myapp4/user_form.html', {'form': form})
+                                                             ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-04-07 09:14:15,882 basehttp 23666 6203699200 "GET /l4/user/add/ HTTP/1.1" 500 64243
+INFO 2024-04-07 09:15:00,719 autoreload 23666 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 09:15:00,988 autoreload 23719 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:15:02,136 basehttp 23719 6171373568 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 09:15:05,186 basehttp 23719 6171373568 "GET / HTTP/1.1" 200 217
+ERROR 2024-04-07 09:15:08,343 log 23719 6171373568 Internal Server Error: /l4/user/add/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/test2django/test_project/testapp4/views.py", line 19, in user_form
+    return render(request, 'myapp4/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+ERROR 2024-04-07 09:15:08,345 basehttp 23719 6171373568 "GET /l4/user/add/ HTTP/1.1" 500 80131
+INFO 2024-04-07 09:15:41,856 autoreload 23719 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 09:15:42,123 autoreload 23743 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:15:45,680 basehttp 23743 6134575104 "GET /l4/user/add/ HTTP/1.1" 200 541
+INFO 2024-04-07 09:29:22,739 basehttp 23743 6134575104 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 09:29:26,032 basehttp 23743 6134575104 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 09:29:32,033 basehttp 23743 6134575104 "GET /l4/user/add/ HTTP/1.1" 200 763
+INFO 2024-04-07 09:29:40,460 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 813
+INFO 2024-04-07 09:29:41,761 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 813
+INFO 2024-04-07 09:30:29,402 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 813
+INFO 2024-04-07 09:30:29,907 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 813
+INFO 2024-04-07 09:30:30,061 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 813
+INFO 2024-04-07 09:30:30,196 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 813
+INFO 2024-04-07 09:30:30,312 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 813
+INFO 2024-04-07 09:30:32,918 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 817
+INFO 2024-04-07 09:30:33,254 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 817
+INFO 2024-04-07 09:30:33,389 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 817
+INFO 2024-04-07 09:30:39,792 basehttp 23743 6134575104 "POST /l4/user/add/ HTTP/1.1" 200 817
+INFO 2024-04-07 09:31:20,965 autoreload 23743 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 09:31:21,264 autoreload 24193 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:31:26,394 basehttp 24193 6157578240 "POST /l4/user/add/ HTTP/1.1" 200 817
+INFO 2024-04-07 09:32:07,984 autoreload 24193 8471935680 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-04-07 09:32:08,280 autoreload 24218 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:32:11,460 views 24218 6203830272 Получили name='ыва', email='vel6545158@yandex.ru', age=1.
+INFO 2024-04-07 09:32:11,476 basehttp 24218 6203830272 "POST /l4/user/add/ HTTP/1.1" 200 817
+INFO 2024-04-07 09:46:36,933 autoreload 24218 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 09:46:37,274 autoreload 24537 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:59:38,746 autoreload 24537 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 09:59:39,083 autoreload 24873 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 09:59:59,435 autoreload 24873 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 09:59:59,842 autoreload 24896 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:14:38,572 autoreload 24896 8471935680 /Users/denisburguto/test2django/test_project/testapp4/urls.py changed, reloading.
+INFO 2024-04-07 10:14:38,860 autoreload 25239 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:16:13,352 autoreload 25239 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 10:16:13,687 autoreload 25295 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:17:52,920 basehttp 25295 6122385408 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 10:17:56,104 basehttp 25295 6122385408 "GET / HTTP/1.1" 200 217
+WARNING 2024-04-07 10:17:58,115 log 25295 6122385408 Not Found: /form
+WARNING 2024-04-07 10:17:58,115 basehttp 25295 6122385408 "GET /form HTTP/1.1" 404 2508
+WARNING 2024-04-07 10:18:03,479 log 25295 6122385408 Not Found: /fake_users/25
+WARNING 2024-04-07 10:18:03,480 basehttp 25295 6122385408 "GET /fake_users/25 HTTP/1.1" 404 2535
+INFO 2024-04-07 10:18:03,859 basehttp 25295 6122385408 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 10:18:04,625 basehttp 25295 6122385408 "GET /l4/user/add/ HTTP/1.1" 200 763
+WARNING 2024-04-07 10:18:07,273 log 25295 6122385408 Not Found: /l4.form
+WARNING 2024-04-07 10:18:07,273 basehttp 25295 6122385408 "GET /l4.form HTTP/1.1" 404 2517
+WARNING 2024-04-07 10:18:10,344 log 25295 6122385408 Not Found: /l4.form
+WARNING 2024-04-07 10:18:10,344 basehttp 25295 6122385408 "GET /l4.form HTTP/1.1" 404 2517
+INFO 2024-04-07 10:18:14,881 basehttp 25295 6122385408 "GET /l4/user/add/ HTTP/1.1" 200 763
+INFO 2024-04-07 10:18:16,524 basehttp 25295 6122385408 "GET /l4/user/add/ HTTP/1.1" 200 763
+INFO 2024-04-07 10:18:19,272 basehttp 25295 6122385408 "GET /l4/form HTTP/1.1" 301 0
+ERROR 2024-04-07 10:18:19,313 log 25295 6122385408 Internal Server Error: /l4/form/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/test2django/test_project/testapp4/views.py", line 30, in many_fields_form
+    return render(request, 'testapp4/many_fields_form.html',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp4/many_fields_form.html
+ERROR 2024-04-07 10:18:19,314 basehttp 25295 6122385408 "GET /l4/form/ HTTP/1.1" 500 80384
+INFO 2024-04-07 10:18:38,172 autoreload 25295 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 10:18:38,485 autoreload 25358 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:18:40,471 basehttp 25358 6159560704 "GET /l4/form/ HTTP/1.1" 200 1257
+INFO 2024-04-07 10:20:20,540 views 25358 6159560704 Получили form.cleaned_data={'name': 'dsf', 'email': 'vel6545158@yandex.ru', 'age': 33, 'height': 3.3, 'is_active': True, 'birthdate': datetime.date(2024, 4, 7)}.
+INFO 2024-04-07 10:20:20,547 basehttp 25358 6159560704 "POST /l4/form/ HTTP/1.1" 200 1329
+INFO 2024-04-07 10:20:41,320 views 25358 6159560704 Получили form.cleaned_data={'name': 'dsf', 'email': 'vel6545158@yandex.ru', 'age': 33, 'height': 3.3, 'is_active': True, 'birthdate': datetime.date(2024, 4, 7)}.
+INFO 2024-04-07 10:20:41,324 basehttp 25358 6159560704 "POST /l4/form/ HTTP/1.1" 200 1329
+INFO 2024-04-07 10:31:52,871 autoreload 25358 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 10:31:53,247 autoreload 25765 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:33:16,318 autoreload 25765 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 10:33:16,638 autoreload 25834 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:41:56,148 autoreload 25834 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 10:41:56,448 autoreload 26045 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:41:57,762 basehttp 26045 6200406016 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 10:42:01,062 basehttp 26045 6200406016 "GET / HTTP/1.1" 200 217
+WARNING 2024-04-07 10:42:02,395 log 26045 6200406016 Not Found: /fake_users/25
+WARNING 2024-04-07 10:42:02,395 basehttp 26045 6200406016 "GET /fake_users/25 HTTP/1.1" 404 2535
+INFO 2024-04-07 10:42:03,439 basehttp 26045 6200406016 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 10:42:04,370 basehttp 26045 6200406016 "GET /l4/user/add/ HTTP/1.1" 200 763
+INFO 2024-04-07 10:42:08,060 basehttp 26045 6200406016 "GET /l4/form/ HTTP/1.1" 200 2072
+INFO 2024-04-07 10:42:48,794 basehttp 26045 6200406016 "GET /l4/form/ HTTP/1.1" 200 2072
+INFO 2024-04-07 10:45:11,777 autoreload 26045 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 10:45:12,041 autoreload 26144 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:45:15,870 basehttp 26144 6161182720 "GET /l4/form/ HTTP/1.1" 200 2072
+INFO 2024-04-07 10:55:39,046 autoreload 26144 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 10:55:39,396 autoreload 26406 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:55:49,562 autoreload 26406 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 10:55:49,858 autoreload 26418 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 10:56:37,403 autoreload 26418 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 10:56:37,695 autoreload 26465 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:02:51,139 autoreload 26465 8471935680 /Users/denisburguto/test2django/test_project/testapp4/models.py changed, reloading.
+INFO 2024-04-07 11:02:51,563 autoreload 26632 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:37:43,827 autoreload 27204 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:37:45,499 basehttp 27204 6165098496 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 11:37:49,880 basehttp 27204 6165098496 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 11:37:53,297 basehttp 27204 6165098496 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 11:37:54,185 basehttp 27204 6165098496 "GET /l4/user/add/ HTTP/1.1" 200 763
+INFO 2024-04-07 11:38:06,780 basehttp 27204 6165098496 "GET /l4/user/add/ HTTP/1.1" 200 763
+INFO 2024-04-07 11:38:07,431 basehttp 27204 6165098496 "GET /l4/user/ HTTP/1.1" 200 763
+INFO 2024-04-07 11:38:11,607 basehttp 27204 6165098496 "GET /l4/user/ HTTP/1.1" 200 763
+INFO 2024-04-07 11:38:12,190 basehttp 27204 6165098496 "GET /l4/user HTTP/1.1" 301 0
+INFO 2024-04-07 11:38:12,210 basehttp 27204 6165098496 "GET /l4/user/ HTTP/1.1" 200 763
+INFO 2024-04-07 11:38:29,473 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 922
+INFO 2024-04-07 11:38:48,446 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 918
+INFO 2024-04-07 11:39:33,035 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 918
+INFO 2024-04-07 11:39:33,246 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 918
+INFO 2024-04-07 11:39:33,423 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 918
+INFO 2024-04-07 11:39:33,557 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 918
+INFO 2024-04-07 11:40:19,134 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 918
+INFO 2024-04-07 11:40:19,367 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 918
+INFO 2024-04-07 11:41:20,888 views 27204 6165098496 Получили name='test', email='vel6545158@vk.team', age=7.
+INFO 2024-04-07 11:41:20,902 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 813
+INFO 2024-04-07 11:43:55,583 views 27204 6165098496 Получили name='test2', email='vel6545158@vk.team', age=7.
+ERROR 2024-04-07 11:44:00,770 log 27204 6165098496 Internal Server Error: /l4/user/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/test2django/test_project/testapp4/views.py", line 45, in add_user
+    user.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/backends/base/operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/utils.py", line 97, in inner
+    with self:
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-07 11:44:00,775 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 500 124234
+INFO 2024-04-07 11:44:24,688 views 27204 6165098496 Получили name='test2', email='vel6545158@vk.team', age=7.
+INFO 2024-04-07 11:44:24,703 basehttp 27204 6165098496 "POST /l4/user/ HTTP/1.1" 200 867
+INFO 2024-04-07 11:45:33,446 basehttp 27204 6165098496 "GET /l4/user/ HTTP/1.1" 200 802
+INFO 2024-04-07 11:52:35,069 autoreload 27204 8471935680 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-04-07 11:52:35,398 autoreload 27681 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:54:00,888 autoreload 27681 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 11:54:01,243 autoreload 27715 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:54:22,669 autoreload 27715 8471935680 /Users/denisburguto/test2django/test_project/testapp4/forms.py changed, reloading.
+INFO 2024-04-07 11:54:22,980 autoreload 27733 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:55:11,746 autoreload 27733 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 11:55:12,069 autoreload 27759 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:58:09,938 autoreload 27759 8471935680 /Users/denisburguto/test2django/test_project/testapp4/urls.py changed, reloading.
+INFO 2024-04-07 11:58:10,349 autoreload 27844 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 11:58:45,940 autoreload 27844 8471935680 /Users/denisburguto/test2django/test_project/testapp4/views.py changed, reloading.
+INFO 2024-04-07 11:58:46,364 autoreload 27877 8471935680 Watching for file changes with StatReloader
+INFO 2024-04-07 12:00:23,487 basehttp 27877 6189363200 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 12:00:26,919 basehttp 27877 6189363200 "GET / HTTP/1.1" 200 217
+INFO 2024-04-07 12:00:29,440 basehttp 27877 6189363200 "GET /l4/user/add/ HTTP/1.1" 200 773
+INFO 2024-04-07 12:00:34,998 basehttp 27877 6189363200 "GET /l4/upload HTTP/1.1" 301 0
+INFO 2024-04-07 12:00:35,019 basehttp 27877 6189363200 "GET /l4/upload/ HTTP/1.1" 200 574
+INFO 2024-04-07 12:00:42,851 basehttp 27877 6189363200 "POST /l4/upload/ HTTP/1.1" 200 574

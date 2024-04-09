@@ -25,13 +25,14 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" object-ref="schemas/db/tables/testapp3_post" />
+      <object connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" object-ref="schemas/db/tables/testapp4_user" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp4_user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp2_order_products" active-filter-id="" />
     <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp2_author" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp2_post" active-filter-id="EMPTY_FILTER" />

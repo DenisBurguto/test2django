@@ -113,6 +113,11 @@ INFO 2024-03-30 06:49:26,183 autoreload 14734 8444754624 Watching for file chang
 INFO 2024-03-30 06:51:40,712 autoreload 14927 8444754624 Watching for file changes with StatReloader
 INFO 2024-03-30 07:28:29,988 autoreload 14927 8444754624 /Users/denisburguto/test2django/test_project/testapp2/models.py changed, reloading.
 INFO 2024-03-30 07:28:30,277 autoreload 15412 8444754624 Watching for file changes with StatReloader
+INFO 2024-04-02 05:58:26,149 autoreload 25731 8444820160 Watching for file changes with StatReloader
+INFO 2024-04-02 05:59:11,276 autoreload 25790 8444820160 Watching for file changes with StatReloader
+INFO 2024-04-02 05:59:35,352 autoreload 25821 8444820160 Watching for file changes with StatReloader
+INFO 2024-04-02 06:00:32,946 autoreload 25879 8444820160 Watching for file changes with StatReloader
+INFO 2024-04-02 06:01:21,577 autoreload 25962 8444820160 Watching for file changes with StatReloader
 INFO 2024-04-02 13:57:26,555 autoreload 20380 8444754624 Watching for file changes with StatReloader
 INFO 2024-04-02 13:57:52,931 autoreload 20380 8444754624 /Users/denisburguto/test2django/test_project/test_project/urls.py changed, reloading.
 INFO 2024-04-02 13:57:53,169 autoreload 20388 8444754624 Watching for file changes with StatReloader

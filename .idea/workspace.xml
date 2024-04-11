@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecd96b-6a0f-4ad8-9d15-7653ac396418" name="Changes" comment="dd">
+    <list default="true" id="88ecd96b-6a0f-4ad8-9d15-7653ac396418" name="Changes" comment="dd4">
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/migrations/0005_productnew_delete_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/migrations/0006_product_date_added_product_description_product_price_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_project/testapp5/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/test2django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test2django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_project/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/log/django.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_project/test_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/test_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_project/testapp3/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_project/testapp3/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +43,23 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2eBZcZ8RFKFu78hSSY2fDChB0aV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ToolWindowPython Packages.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/denisburguto/test2django&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/denisburguto/test2django/test_project/templates&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,10 +78,20 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_project/templates" />
+      <recent name="$PROJECT_DIR$/test_project/testapp3/templates/testapp3" />
+      <recent name="$PROJECT_DIR$/test_project/testapp3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_project/testapp3/templates" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
@@ -79,6 +105,7 @@
       <updated>1711380011427</updated>
       <workItem from="1711777564252" duration="624000" />
       <workItem from="1711779481394" duration="1926000" />
+      <workItem from="1712076150934" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <option name="closed" value="true" />
@@ -88,15 +115,60 @@
       <option name="project" value="LOCAL" />
       <updated>1711602181090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dd2">
+      <option name="closed" value="true" />
+      <created>1712034557519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712034557519</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dd2">
+      <option name="closed" value="true" />
+      <created>1712034568950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712034568950</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dd2">
+      <option name="closed" value="true" />
+      <created>1712034590326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712034590326</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dd3">
+      <option name="closed" value="true" />
+      <created>1712168427044</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712168427044</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dd4">
+      <option name="closed" value="true" />
+      <created>1712635202336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712635202336</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dd" />
+    <MESSAGE value="dd2f" />
+    <MESSAGE value="dd2" />
+    <MESSAGE value="dd3" />
+    <MESSAGE value="dd4" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -107,8 +179,8 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_project/testapp2/models.py</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/test_project/testapp5/models.py</url>
+          <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

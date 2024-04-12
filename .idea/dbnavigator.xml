@@ -24,16 +24,14 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" object-ref="schemas/db/tables/testapp5_product" />
-      <object connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" object-ref="schemas/db/tables/auth_user" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp5_category" active-filter-id="" />
+    <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp2_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp2_order_products" active-filter-id="" />
     <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp2_author" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="d95be79a-e6b0-4acd-8017-24abc6bc0f01" dataset="db.testapp2_post" active-filter-id="EMPTY_FILTER" />

@@ -5,7 +5,9 @@ from django.shortcuts import render
 from .forms import UserForm, ManyFieldsFormWidget, ImageForm
 from .models import User
 
+
 logger = logging.getLogger(__name__)
+
 
 
 def user_form(request):

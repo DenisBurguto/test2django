@@ -1255,3 +1255,263 @@ INFO 2024-04-10 18:11:29,116 autoreload 22445 8666905280 Watching for file chang
 INFO 2024-04-10 18:11:34,717 basehttp 22445 6130413568 "GET /admin/testapp5/product/4/change/ HTTP/1.1" 200 15777
 INFO 2024-04-10 18:11:34,774 basehttp 22445 6130413568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-04-10 18:11:34,781 basehttp 22445 6130413568 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-04-12 15:09:09,472 autoreload 31186 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 15:16:27,440 autoreload 31872 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 15:17:02,752 autoreload 31953 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 15:17:04,612 basehttp 31953 6196899840 "GET / HTTP/1.1" 200 10401
+INFO 2024-04-12 15:17:04,702 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-04-12 15:17:04,704 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-04-12 15:17:04,709 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-04-12 15:17:04,728 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2024-04-12 15:17:04,772 log 31953 6213726208 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-04-12 15:17:04,772 basehttp 31953 6213726208 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 12895
+WARNING 2024-04-12 15:17:04,781 log 31953 6213726208 Not Found: /apple-touch-icon.png
+WARNING 2024-04-12 15:17:04,781 basehttp 31953 6213726208 "GET /apple-touch-icon.png HTTP/1.1" 404 12845
+INFO 2024-04-12 15:22:40,498 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=a098472cc0434f92bcc5d5d343340245&panel_id=HistoryPanel HTTP/1.1" 200 5825
+INFO 2024-04-12 15:22:40,509 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-04-12 15:22:52,117 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=a098472cc0434f92bcc5d5d343340245&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-04-12 15:22:54,235 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=a098472cc0434f92bcc5d5d343340245&panel_id=TimerPanel HTTP/1.1" 200 2263
+INFO 2024-04-12 15:22:54,247 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3686
+INFO 2024-04-12 15:23:09,526 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=a098472cc0434f92bcc5d5d343340245&panel_id=SettingsPanel HTTP/1.1" 200 26893
+INFO 2024-04-12 15:23:29,419 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=a098472cc0434f92bcc5d5d343340245&panel_id=HeadersPanel HTTP/1.1" 200 4702
+INFO 2024-04-12 15:24:10,928 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=a098472cc0434f92bcc5d5d343340245&panel_id=RequestPanel HTTP/1.1" 200 2375
+INFO 2024-04-12 15:24:48,656 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=a098472cc0434f92bcc5d5d343340245&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2024-04-12 15:25:09,540 basehttp 31953 6196899840 "GET / HTTP/1.1" 200 10402
+INFO 2024-04-12 15:25:09,582 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:25:09,585 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:25:09,590 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:25:09,604 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:25:11,846 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=0cf344538d724d17af4212b2113a09f3&panel_id=RequestPanel HTTP/1.1" 200 2375
+INFO 2024-04-12 15:25:13,600 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=0cf344538d724d17af4212b2113a09f3&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2024-04-12 15:25:25,419 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=0cf344538d724d17af4212b2113a09f3&panel_id=HistoryPanel HTTP/1.1" 200 7459
+INFO 2024-04-12 15:25:25,432 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:25:39,024 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=0cf344538d724d17af4212b2113a09f3&panel_id=StaticFilesPanel HTTP/1.1" 200 30342
+INFO 2024-04-12 15:26:38,882 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=0cf344538d724d17af4212b2113a09f3&panel_id=TemplatesPanel HTTP/1.1" 200 6333
+INFO 2024-04-12 15:26:45,216 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=0cf344538d724d17af4212b2113a09f3&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-04-12 15:26:48,110 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=0cf344538d724d17af4212b2113a09f3&panel_id=SignalsPanel HTTP/1.1" 200 2276
+INFO 2024-04-12 15:28:21,246 basehttp 31953 6196899840 "GET / HTTP/1.1" 200 10402
+INFO 2024-04-12 15:28:21,286 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:28:21,291 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:28:21,295 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:28:21,308 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-04-12 15:28:30,298 log 31953 6196899840 Not Found: /user/add
+WARNING 2024-04-12 15:28:30,299 basehttp 31953 6196899840 "GET /user/add HTTP/1.1" 404 13226
+INFO 2024-04-12 15:28:33,771 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=4c14761419ca4a8585f54321005dc3af&panel_id=ProfilingPanel HTTP/1.1" 200 68532
+WARNING 2024-04-12 15:28:41,461 log 31953 6196899840 Not Found: /user
+WARNING 2024-04-12 15:28:41,461 basehttp 31953 6196899840 "GET /user HTTP/1.1" 404 13210
+INFO 2024-04-12 15:28:41,492 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:28:41,496 basehttp 31953 6196899840 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:28:41,500 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:28:41,515 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-04-12 15:29:24,849 log 31953 6196899840 Not Found: /user/
+WARNING 2024-04-12 15:29:24,850 basehttp 31953 6196899840 "GET /user/ HTTP/1.1" 404 13214
+INFO 2024-04-12 15:29:50,332 basehttp 31953 6196899840 "GET / HTTP/1.1" 200 10829
+INFO 2024-04-12 15:29:51,238 basehttp 31953 6196899840 "GET /l4/user/add/ HTTP/1.1" 200 11407
+INFO 2024-04-12 15:30:02,823 basehttp 31953 6196899840 "POST /l4/user/add/ HTTP/1.1" 200 11565
+INFO 2024-04-12 15:30:06,398 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=3776fbe635514586ab614b4e17881ef5&panel_id=ProfilingPanel HTTP/1.1" 200 50531
+INFO 2024-04-12 15:33:52,017 basehttp 31953 6196899840 "GET /__debug__/render_panel/?store_id=3776fbe635514586ab614b4e17881ef5&panel_id=HistoryPanel HTTP/1.1" 200 19623
+INFO 2024-04-12 15:33:52,032 basehttp 31953 6196899840 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:46:45,342 autoreload 32972 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 15:46:47,012 basehttp 32972 6126104576 "GET / HTTP/1.1" 200 10829
+INFO 2024-04-12 15:46:47,067 basehttp 32972 6126104576 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:46:47,071 basehttp 32972 6126104576 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-12 15:46:47,076 basehttp 32972 6126104576 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:46:47,095 basehttp 32972 6126104576 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-12 15:46:50,200 basehttp 32972 6126104576 "GET / HTTP/1.1" 200 10829
+WARNING 2024-04-12 15:46:51,191 log 32972 6126104576 Not Found: /about/
+WARNING 2024-04-12 15:46:51,191 basehttp 32972 6126104576 "GET /about/ HTTP/1.1" 404 13218
+INFO 2024-04-12 15:46:52,903 basehttp 32972 6126104576 "GET /admin/testapp5/product/ HTTP/1.1" 200 25779
+INFO 2024-04-12 15:46:52,942 basehttp 32972 6126104576 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-12 15:46:52,946 basehttp 32972 6126104576 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-12 15:46:52,950 basehttp 32972 6126104576 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-12 15:46:52,954 basehttp 32972 6126104576 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-12 15:46:52,958 basehttp 32972 6126104576 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-12 15:46:52,962 basehttp 32972 6126104576 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-12 15:46:52,979 basehttp 32972 6159757312 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-12 15:46:52,980 basehttp 32972 6176583680 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-12 15:46:52,984 basehttp 32972 6159757312 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-12 15:46:52,986 basehttp 32972 6126104576 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-12 15:46:52,986 basehttp 32972 6142930944 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-12 15:46:52,986 basehttp 32972 6159757312 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-12 15:46:52,988 basehttp 32972 6126104576 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-12 15:46:52,992 basehttp 32972 6126104576 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-12 15:46:52,998 basehttp 32972 6126104576 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-12 15:46:53,000 basehttp 32972 6126104576 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-12 15:46:53,003 basehttp 32972 6126104576 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-12 15:46:53,006 basehttp 32972 6126104576 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-12 15:46:53,108 basehttp 32972 6126104576 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-12 15:46:53,112 basehttp 32972 6126104576 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-12 15:46:53,116 basehttp 32972 6126104576 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-12 15:46:53,126 basehttp 32972 6126104576 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-12 15:46:57,152 basehttp 32972 6126104576 "GET /admin/testapp5/product/ HTTP/1.1" 200 25777
+INFO 2024-04-12 15:46:57,210 basehttp 32972 6126104576 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-12 15:46:58,458 basehttp 32972 6126104576 "GET /admin/testapp5/product/ HTTP/1.1" 200 25777
+INFO 2024-04-12 15:46:58,480 basehttp 32972 6142930944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-12 15:47:02,297 basehttp 32972 6126104576 "POST /admin/testapp5/product/ HTTP/1.1" 200 20430
+INFO 2024-04-12 15:47:02,382 basehttp 32972 6126104576 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+ERROR 2024-04-12 15:47:08,962 log 32972 6126104576 Internal Server Error: /admin/testapp5/product/
+Traceback (most recent call last):
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 2042, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1650, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/contrib/admin/actions.py", line 50, in delete_selected
+    modeladmin.log_deletion(request, obj, obj_display)
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 985, in log_deletion
+    return LogEntry.objects.log_action(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/contrib/admin/models.py", line 38, in log_action
+    return self.model.objects.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/backends/base/operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/utils.py", line 97, in inner
+    with self:
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/denisburguto/venv/lib/python3.11/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-12 15:47:09,030 basehttp 32972 6126104576 "POST /admin/testapp5/product/ HTTP/1.1" 500 208032
+INFO 2024-04-12 15:47:09,030 basehttp 32972 6126104576 - Broken pipe from ('127.0.0.1', 64128)
+INFO 2024-04-12 15:47:12,931 basehttp 32972 6142930944 "POST /admin/testapp5/product/ HTTP/1.1" 302 0
+INFO 2024-04-12 15:47:12,989 basehttp 32972 6142930944 "GET /admin/testapp5/product/ HTTP/1.1" 200 21787
+INFO 2024-04-12 15:47:13,168 basehttp 32972 6142930944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-12 15:47:13,265 basehttp 32972 6142930944 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-12 17:07:38,138 autoreload 34110 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 17:07:40,534 basehttp 34110 6126579712 "GET / HTTP/1.1" 200 10829
+INFO 2024-04-12 17:07:40,591 basehttp 34110 6126579712 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-12 17:07:40,595 basehttp 34110 6126579712 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-12 17:07:40,600 basehttp 34110 6126579712 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-12 17:07:40,616 basehttp 34110 6126579712 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-12 17:07:43,705 basehttp 34110 6126579712 "GET / HTTP/1.1" 200 10829
+INFO 2024-04-12 17:07:44,260 basehttp 34110 6126579712 "GET /l4/user/add/ HTTP/1.1" 200 11407
+WARNING 2024-04-12 17:07:48,640 log 34110 6126579712 Not Found: /l6/
+WARNING 2024-04-12 17:07:48,640 basehttp 34110 6126579712 "GET /l6/ HTTP/1.1" 404 13714
+INFO 2024-04-12 17:07:56,530 basehttp 34110 6126579712 "GET /l6/db HTTP/1.1" 301 0
+INFO 2024-04-12 17:07:56,613 basehttp 34110 6126579712 "GET /l6/db/ HTTP/1.1" 200 10953
+INFO 2024-04-12 17:08:12,091 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=b59dccc2944a40f3b41806dea0e78929&panel_id=SQLPanel HTTP/1.1" 200 5172
+INFO 2024-04-12 17:08:16,665 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=b59dccc2944a40f3b41806dea0e78929&panel_id=HistoryPanel HTTP/1.1" 200 10701
+INFO 2024-04-12 17:08:16,676 basehttp 34110 6126579712 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-04-12 17:09:32,670 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=b59dccc2944a40f3b41806dea0e78929&panel_id=ProfilingPanel HTTP/1.1" 200 32465
+INFO 2024-04-12 17:10:14,721 basehttp 34110 6126579712 "GET /l6/db/ HTTP/1.1" 200 10953
+INFO 2024-04-12 17:10:20,076 basehttp 34110 6126579712 "GET /l6/view HTTP/1.1" 301 0
+INFO 2024-04-12 17:10:20,269 basehttp 34110 6126579712 "GET /l6/view/ HTTP/1.1" 200 10940
+INFO 2024-04-12 17:10:32,993 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=3c38f90db8d547ac974c81a5523c450c&panel_id=SQLPanel HTTP/1.1" 200 6422
+INFO 2024-04-12 17:10:47,191 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=3c38f90db8d547ac974c81a5523c450c&panel_id=ProfilingPanel HTTP/1.1" 200 41666
+INFO 2024-04-12 17:11:20,220 basehttp 34110 6126579712 "GET /l6/view/ HTTP/1.1" 200 10940
+INFO 2024-04-12 17:11:26,179 basehttp 34110 6126579712 "GET /l6/template HTTP/1.1" 301 0
+INFO 2024-04-12 17:11:26,356 basehttp 34110 6126579712 "GET /l6/template/ HTTP/1.1" 200 10924
+INFO 2024-04-12 17:11:30,149 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=d50a947d7f57421d8ec95467719b4311&panel_id=TimerPanel HTTP/1.1" 200 2267
+INFO 2024-04-12 17:11:30,156 basehttp 34110 6126579712 "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 304 0
+INFO 2024-04-12 17:11:33,995 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=d50a947d7f57421d8ec95467719b4311&panel_id=SQLPanel HTTP/1.1" 200 22269
+INFO 2024-04-12 17:11:54,825 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=d50a947d7f57421d8ec95467719b4311&panel_id=TemplatesPanel HTTP/1.1" 200 7019
+INFO 2024-04-12 17:12:18,722 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=d50a947d7f57421d8ec95467719b4311&panel_id=ProfilingPanel HTTP/1.1" 200 32376
+INFO 2024-04-12 17:12:48,882 basehttp 34110 6126579712 "GET /__debug__/render_panel/?store_id=d50a947d7f57421d8ec95467719b4311&panel_id=HistoryPanel HTTP/1.1" 200 20557
+INFO 2024-04-12 17:13:23,287 basehttp 34110 6126579712 "GET /__debug__/history_sidebar/?store_id=55ac7d55340d404aab415117d434e18e&exclude_history=True HTTP/1.1" 200 12353
+INFO 2024-04-12 17:13:28,918 basehttp 34110 6126579712 "GET /__debug__/history_sidebar/?store_id=9b608f9223be4f9ba417411c9bdbf526&exclude_history=True HTTP/1.1" 200 12353
+INFO 2024-04-12 17:13:33,166 basehttp 34110 6126579712 "GET /__debug__/history_sidebar/?store_id=7cb3fbb1a25a406493961233b9ec9caf&exclude_history=True HTTP/1.1" 200 12353
+INFO 2024-04-12 17:13:40,271 basehttp 34110 6126579712 "GET /__debug__/history_sidebar/?store_id=d50a947d7f57421d8ec95467719b4311&exclude_history=True HTTP/1.1" 200 12381
+INFO 2024-04-12 17:13:46,367 basehttp 34110 6126579712 "GET /__debug__/history_sidebar/?store_id=b59dccc2944a40f3b41806dea0e78929&exclude_history=True HTTP/1.1" 200 12373
+INFO 2024-04-12 17:13:51,901 basehttp 34110 6126579712 "GET /__debug__/history_sidebar/?store_id=3c38f90db8d547ac974c81a5523c450c&exclude_history=True HTTP/1.1" 200 12377
+INFO 2024-04-12 17:13:53,770 basehttp 34110 6126579712 "GET /__debug__/history_sidebar/?store_id=d50a947d7f57421d8ec95467719b4311&exclude_history=True HTTP/1.1" 200 12381
+INFO 2024-04-12 17:28:54,646 basehttp 34110 6126579712 "GET /admin/testapp5/product/ HTTP/1.1" 200 688102
+INFO 2024-04-12 17:28:54,726 basehttp 34110 6126579712 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-12 17:28:54,728 basehttp 34110 6143406080 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-12 17:28:54,731 basehttp 34110 6126579712 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-12 17:28:54,736 basehttp 34110 6126579712 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-12 17:28:54,740 basehttp 34110 6126579712 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-12 17:28:54,743 basehttp 34110 6126579712 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-12 17:28:54,759 basehttp 34110 6160232448 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-12 17:28:54,760 basehttp 34110 6177058816 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-12 17:28:54,763 basehttp 34110 6143406080 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-12 17:28:54,766 basehttp 34110 6126579712 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-12 17:28:54,766 basehttp 34110 6160232448 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-12 17:28:54,767 basehttp 34110 6143406080 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-12 17:28:54,770 basehttp 34110 6126579712 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-12 17:28:54,773 basehttp 34110 6126579712 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-12 17:28:54,777 basehttp 34110 6126579712 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-12 17:28:54,779 basehttp 34110 6126579712 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-12 17:28:54,782 basehttp 34110 6126579712 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-12 17:28:54,786 basehttp 34110 6126579712 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-12 17:28:54,793 basehttp 34110 6126579712 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-04-12 17:28:54,796 basehttp 34110 6126579712 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-04-12 17:28:54,873 basehttp 34110 6126579712 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-04-12 17:28:54,893 basehttp 34110 6126579712 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2024-04-12 17:28:54,961 basehttp 34110 6126579712 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-12 17:28:54,964 basehttp 34110 6126579712 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-12 17:28:54,969 basehttp 34110 6126579712 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-12 17:28:54,979 basehttp 34110 6126579712 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-12 17:40:12,783 autoreload 34110 8666905280 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-04-12 17:40:13,253 autoreload 34794 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 17:41:37,028 autoreload 34794 8666905280 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-04-12 17:41:37,442 autoreload 34823 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 17:43:12,941 autoreload 34823 8666905280 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
+INFO 2024-04-12 17:43:13,351 autoreload 34869 8666905280 Watching for file changes with StatReloader
+INFO 2024-04-12 17:47:14,601 autoreload 34869 8666905280 /Users/denisburguto/test2django/test_project/test_project/settings.py changed, reloading.
